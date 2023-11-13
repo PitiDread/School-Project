@@ -1,0 +1,13 @@
+
+/*Background*/
+body {
+    background: url("Pictures/20200324165648_1.jpg") center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*Button Style*/
+button {
+    background-color: #ACACAC;
+    border-radius: 4px;
+}

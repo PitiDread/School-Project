@@ -1,0 +1,22 @@
+/*Background*/
+body {
+    background: url("Pictures/20200402192900_1.jpg") center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*Text style*/
+.about {
+    text-align: justify;
+}
+
+section {
+    background-color: #3b3a2ca8;
+}
+
+/*Medias Queries*/
+@media screen and (min-width: 700px) {
+    section {
+        width: 80%;
+    }
+}

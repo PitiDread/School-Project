@@ -1,0 +1,56 @@
+/*General Layout*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fefefe;
+    text-align: center; 
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+
+header, footer {
+    background-color: #3B3A2C;
+}
+
+
+
+/*Navigation Layout*/
+nav ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #178F28;
+    font-weight: bold;
+}
+
+/*Medias Queries*/
+@media screen and (min-width: 700px) {
+    main{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+

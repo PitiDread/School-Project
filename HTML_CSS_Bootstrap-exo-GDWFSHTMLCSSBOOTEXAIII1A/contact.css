@@ -1,0 +1,11 @@
+/*Background*/
+body {
+    background: url("Pictures/20200416125939_1.jpg") center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*Text Field Color*/
+input {
+    color: #000000;
+}

@@ -1,0 +1,23 @@
+/*Background*/
+body {
+    background: url("Pictures/20200413115912_1.jpg") center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/*Text Area Style*/
+div {
+    background-color: #3b3a2ca8;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+/*Medias Queries*/
+@media screen and (min-width: 700px) {
+    section {
+        display: flex;
+    }
+    div {
+        width: 50%;
+    }
+}
