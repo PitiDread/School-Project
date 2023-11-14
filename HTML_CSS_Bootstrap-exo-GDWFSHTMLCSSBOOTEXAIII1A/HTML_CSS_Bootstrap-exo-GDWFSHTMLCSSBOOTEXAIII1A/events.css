@@ -1,0 +1,38 @@
+/*Background*/
+body {
+    background: url("Pictures/20200413115912_1.jpg") fixed center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Text Area Style*/
+div {
+    background-color: #3b3a2ca8;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.event-date {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.event-text {
+    text-align: justify;
+}
+
+
+
+/*Medias Queries*/
+@media screen and (min-width: 700px) {
+    section {
+        display: flex;
+        flex-flow: row;
+    }
+    div {
+        width: 50%;
+    }
+}

@@ -1,0 +1,18 @@
+/*Background*/
+body {
+    background: url("Pictures/20200416125939_1.jpg") center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*Text Field Style*/
+input {
+    color: #000000;
+    margin: 8px;
+}
+
+textarea {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
